@@ -13,7 +13,7 @@ public class Palindrome {
 	 */
 	/*
 	 * 
-	 * Implement algorithm or function to check if a linked list is a palindrome 
+	 * Implement algorithm or function to check if a linked list is a palindrom 
 	 * 
 	 * 
 	 */
@@ -31,11 +31,11 @@ public class Palindrome {
 
 		Palindrome list = new Palindrome();
 		list.head = new Node(1);
-		list.head.next = new Node(2);
+		list.head.next = new Node(1);
 		list.head.next.next = new Node(3);
 		list.head.next.next.next = new Node(1);
 		list.head.next.next.next.next = new Node(1);
-		
+		printList(head);
 		System.out.println(isPalindrom(head));
 	}
 	static void printList(Node head){	
