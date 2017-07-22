@@ -35,8 +35,8 @@ public class Palindrome {
 		list.head.next.next = new Node(3);
 		list.head.next.next.next = new Node(1);
 		list.head.next.next.next.next = new Node(1);
-		printList(head);
 		System.out.println(isPalindrom(head));
+		printList(head);
 	}
 	static void printList(Node head){	
 		Node n = head;
